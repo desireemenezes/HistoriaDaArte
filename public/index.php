@@ -1,3 +1,3 @@
 <?php
-  include_once("timeline.html");
+  include_once("timeline.php");
 ?>
