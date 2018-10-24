@@ -16,6 +16,9 @@
     font-family: "Trebuchet MS", Helvetica, sans-serif;
     background: white;;
   }
+  a {
+    padding: 10px;
+  }
 
 .Header {
     padding: 15px;
@@ -117,7 +120,7 @@ img {
     height: 100%;
     width: 50%;
     border-radius: 100px 0 0 100px;
-    border: 15px solid #46B2BC;
+    border: 15px solid #343a40 ;
     border-right: none;
     position: absolute;
     left: 0;
@@ -127,14 +130,14 @@ img {
 .main-timeline .timeline:after{
     height: calc(100% - 30px);
     width: calc(50% - 12px);
-    border-color: #65C7D0;
+    border-color: #343a40 ;
     left: 12px;
     top: 15px;
 }
 .main-timeline .timeline-content{ display:inline-block; }
 .main-timeline .timeline-content:hover{ text-decoration: none; }
 .main-timeline .timeline-year{
-    color: #65C7D0;
+    color: #343a40 ;
     font-size: 50px;
     font-weight: 600;
     display: inline-block;
@@ -144,7 +147,7 @@ img {
     left: 10%;
 }
 .main-timeline .timeline-icon{
-    color: #65C7D0;
+    color: #343a40 ;
     font-size: 80px;
     display: inline-block;
     transform: translateY(-50%);
@@ -160,7 +163,7 @@ img {
     float: right;
 }
 .main-timeline .title{
-    color: #65C7D0;
+    color: #343a40 ;
     font-size: 22px;
     font-weight: 600;
     text-transform: uppercase;
@@ -170,19 +173,19 @@ img {
 .main-timeline .description{
     font-size: 15px;
     letter-spacing: 1px;
-    margin: 0;
+    margin: 10px;
 }
 .main-timeline .timeline:nth-child(even):before{
     left: auto;
     right: 0;
     border-radius: 0 100px 100px 0;
-    border: 15px solid red;
+    border: 15px solid #B54A37;
     border-left: none;
 }
 .main-timeline .timeline:nth-child(even):after{
     left: auto;
     right: 12px;
-    border: 15px solid green;
+    border: 15px solid #B54A37;
     border-left: none;
     border-radius: 0 100px 100px 0;
 }
@@ -195,26 +198,26 @@ img {
     left: auto;
     right: 25%;
 }
-.main-timeline .timeline:nth-child(5n+2):before{ border-color: #EA3C14; }
-.main-timeline .timeline:nth-child(5n+2):after{ border-color: #EF5720; }
-.main-timeline .timeline:nth-child(5n+2) .timeline-icon{ color: #EA3C14; }
-.main-timeline .timeline:nth-child(5n+2) .timeline-year{ color: #EA3C14; }
-.main-timeline .timeline:nth-child(5n+2) .title{ color: #EA3C14; }
-.main-timeline .timeline:nth-child(5n+3):before{ border-color: #8CC63E; }
-.main-timeline .timeline:nth-child(5n+3):after{ border-color: #6CAF29; }
-.main-timeline .timeline:nth-child(5n+3) .timeline-icon{ color: #8CC63E; }
-.main-timeline .timeline:nth-child(5n+3) .timeline-year{ color: #8CC63E; }
-.main-timeline .timeline:nth-child(5n+3) .title{ color: #8CC63E; }
-.main-timeline .timeline:nth-child(5n+4):before{ border-color: #F99324; }
-.main-timeline .timeline:nth-child(5n+4):after{ border-color: #FBB03B; }
-.main-timeline .timeline:nth-child(5n+4) .timeline-icon{ color: #F99324; }
-.main-timeline .timeline:nth-child(5n+4) .timeline-year{ color: #F99324; }
-.main-timeline .timeline:nth-child(5n+4) .title{ color: #F99324; }
-.main-timeline .timeline:nth-child(5n+5):before{ border-color: #0071BD; }
-.main-timeline .timeline:nth-child(5n+5):after{ border-color: #0050A3; }
-.main-timeline .timeline:nth-child(5n+5) .timeline-icon{ color: #0071BD; }
-.main-timeline .timeline:nth-child(5n+5) .timeline-year{ color: #0071BD; }
-.main-timeline .timeline:nth-child(5n+5) .title{ color: #0071BD; }
+.main-timeline .timeline:nth-child(5n+2):before{ border-color: #2E3F4F; }
+.main-timeline .timeline:nth-child(5n+2):after{ border-color: #2E3F4F; }
+.main-timeline .timeline:nth-child(5n+2) .timeline-icon{ color: #2E3F4F; }
+.main-timeline .timeline:nth-child(5n+2) .timeline-year{ color: #2E3F4F; }
+.main-timeline .timeline:nth-child(5n+2) .title{ color: #2E3F4F; }
+.main-timeline .timeline:nth-child(5n+3):before{ border-color: #489C85; }
+.main-timeline .timeline:nth-child(5n+3):after{ border-color: #489C85; }
+.main-timeline .timeline:nth-child(5n+3) .timeline-icon{ color: #489C85; }
+.main-timeline .timeline:nth-child(5n+3) .timeline-year{ color: #489C85; }
+.main-timeline .timeline:nth-child(5n+3) .title{ color: #489C85; }
+.main-timeline .timeline:nth-child(5n+4):before{ border-color: #A2B55B; }
+.main-timeline .timeline:nth-child(5n+4):after{ border-color: #A2B55B; }
+.main-timeline .timeline:nth-child(5n+4) .timeline-icon{ color: #A2B55B; }
+.main-timeline .timeline:nth-child(5n+4) .timeline-year{ color: #A2B55B; }
+.main-timeline .timeline:nth-child(5n+4) .title{ color: #A2B55B; }
+.main-timeline .timeline:nth-child(5n+5):before{ border-color: #E99E32; }
+.main-timeline .timeline:nth-child(5n+5):after{ border-color: #E99E32; }
+.main-timeline .timeline:nth-child(5n+5) .timeline-icon{ color: #E99E32; }
+.main-timeline .timeline:nth-child(5n+5) .timeline-year{ color: #E99E32; }
+.main-timeline .timeline:nth-child(5n+5) .title{ color: #E99E32; }
 @media screen and (max-width:1200px){
     .main-timeline .timeline:after{ border-radius: 88px 0 0 88px; }
     .main-timeline .timeline:nth-child(even):after{ border-radius: 0 88px 88px 0; }
