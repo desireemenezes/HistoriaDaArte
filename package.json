@@ -1,6 +1,7 @@
 {
-  "name": "Desiree Menezes",
+  "name": "historia",
   "version": "1.0.0",
+  "description": "linha do tempo",
   "dependencies": {
     "path": "^0.12.7",
     "body-parser": "^1.18.3",
