@@ -157,10 +157,11 @@ img {
 }
 .main-timeline .content{
     color: rgb(33, 37, 41);
-    width: 50%;
+    width: 100%;
     padding: 20px;
     display: inline-block;
-    float: right;
+    text-align: center;
+    
 }
 .main-timeline .title{
     color: #343a40 ;
